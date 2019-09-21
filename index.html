@@ -1,43 +1,86 @@
+
 <!DOCTYPE html>
 <html>
+    
 <head>
   <title>VIVI'S INTEREST</title>
+
   <link href="style.css"
 tpye="text/css"
 rel="stylesheet">
 </head>
-  <body>
 
+  <body>
+    <body style="background-color:rgb(239, 216, 241)">
     <div class="header">
     <h1>VIVI'S INTRESR</h1>
+   <table  style="border-top:3px khaki solid;border-bottom:3px khaki solid;" cellpadding="10" ,border='1000'>
+        <tr height="35" >
+            <td width="100%" >
+                <a href="https://github.com/Yiwen0612"><span style="font-family: Gill Sans, sans-serif; font-size: 40; ">GITHUB</span></a>
+                <a href="https://www.linkedin.com/in/YiwenWu0612"><span style="font-family: Gill Sans, sans-serif; font-size: 40; ">LINKEDIN</span></a>
+                <a href="resume.pdf"><span style="font-family: Gill Sans, sans-serif; font-size: 40; ">RESUME</span></a>
+                <a href="mailto:y657wu@uwaterloo.ca"><span style="font-family: Gill Sans, sans-serif; font-size: 40; ">EMAIL ME</span></a>
+    
+            </td>
+        </tr>
+    </table>
+    </div>
+   
+    <div class="Photography">
+    <h2>Photography</h2>
+    <img    src="lhs.jpeg" width=300px hight=300px />
+    <img    src="1.jpeg" width=400px hight=300px id="div_first"/>
+    <img    src="rhs.jpeg" width=300px hight=300px />
+    <p class="title" >C'est la vie!</p>
+    <p>The camera is a teaching aid that teaches us how to look at the world without a camera. 
+      <br> The photos becomes memories, inspired by knowledge and freedom.Love life, love enthusiasm and love sincerity.</a></p>
     </div>
 
-    <div class="Photographing">
-    <h2>Photographing</h2>
-    <img
-    src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/hacksaw.jpeg"/>
-    <p class="title">Hacksaw Brushes</p>
-    <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts.<a class="highlight">Starting at $3.00 / brush.</a></p>
+    <div class="Carving">
+    <h2>Carving</h2>
+    <img   src="lhs.jpeg" width=300px hight=300px />
+    <img    src="21.jpeg" width=400px hight=300px />
+    <img    src="rhs.jpeg" width=300px hight=300px />
+    <p class="title">Spider Man Rubber Stamp</p>
+    <p>The fountain of life is rushing from the heart; the flower of life is open from the inside out. 
+      <br> Similarly, in beautiful carvings, it let us wander in heart . 
+      <br>This is the secret of ancient art.</a></p>
     </div>
 
-    <div class="frames">
-    <h2>Frames</h2>
-    <img
-    src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/frames.jpeg"/>
-    <p class="title">Art Frames (assorted)</p>
-    <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs.<a class="highlight">Starting at $2.00 / frame.</a></p>
+    <div class="Drawing">
+    <h2>Drawing</h2>
+    <img   src="lhs.jpeg" width=300px hight=300px />
+    <img    src="11.jpeg" width=400px hight=300px id="div_first2"/>
+    <img    src="rhs.jpeg" width=300px hight=300px />
+    <p class="title">Watercolor</p>
+    <p>There are fine works and perfect works.  
+      <br>The fine works can be done with skill, and the perfect works are not available. 
+      <br>It will be necessary to be interested in the ambition, the heart and the paper, the ink and ink .
+      <br>The talents are beautiful, but the nature is more beautiful than that.</a></p>
     </div>
 
-    <div class="paint">
-    <h2>Paint</h2>
-    <img
-    src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/finnish.jpeg"/>
-    <p class="title">Clean Finnish Paint</p>
-    <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork.<a class="highlight">Starting at $5.00 / tube.</a></p>
-    </div>
-
-
-
-  </body>
 
 </html>
+<script>
+var imgs =["1.jpeg", "2.jpeg","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.jpeg","8.jpeg","9.jpeg"];    
+  var x = 0;       
+          function time1(){
+                   x++;
+                  x=x%9;       
+                 document.getElementById("div_first").src =imgs[x];
+          }setInterval("time1()",3000);
+ </script>
+
+<script>
+  var imgs2 =["11.jpeg", "12.jpeg","13.jpeg","14.jpeg","15.jpeg","16.jpeg","17.jpeg"];    
+    var x = 11;       
+            function time2(){
+                     
+                   x++;
+                    x=x%7;
+                   document.getElementById("div_first2").src =imgs2[x];
+            }setInterval("time2()",3000);
+   </script>
+
+  
