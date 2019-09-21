@@ -1,62 +1,36 @@
-<<<<<<< HEAD
 .header h1{
-    font-family: Helvetica;
-    font-size: 100px;
-    font-weight:bold;
-    color:khaki;
-    background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-  }
-  h2{
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-  
-  }
-  .Photography h2{  background-color: rgb(207, 160, 199);}
-  .Carving h2{  background-color: rgb(44, 199, 178);}
-  .Drawing h2{  background-color: skyblue;} 
-  .highlight{
-    font-family:Helvetica;
-    color:blue;
-    font-weight: bold;
-  
-  }
-  
-  img{
-    width: 400px;
-    height: 300px;
-    margin-right: 10px;
-  }
-  table{
-   
-    border-collapse: separate; 
-  
-    border-spacing: 450px 5px; 
-  
-  }
-=======
-.header h1{
-    font-family: Helvetica;
-    font-size: 100px;
-    font-weight:bold;
-    color:khaki;
-    background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-  }
-  h2{
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-  
-  }
-  .bruches h2{  background-color: mediumspringgreen;}
-  .frames h2{  background-color: lightcoral;}
-  .paint h2{  background-color: skyblue;} 
-  .highlight{
-    font-family:Helvetica;
-    color:blue;
-    font-weight: bold;
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight:bold;
+  color:khaki;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+h2{
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
 
-  }
->>>>>>> 42ec775c41e74cf2f4eb1dbd4f6ffc8a70d1a3ca
+}
+.Photography h2{  background-color: rgb(207, 160, 199);}
+.Carving h2{  background-color: rgb(44, 199, 178);}
+.Drawing h2{  background-color: skyblue;} 
+.highlight{
+  font-family:Helvetica;
+  color:blue;
+  font-weight: bold;
+
+}
+
+img{
+  width: 400px;
+  height: 300px;
+  margin-right: 10px;
+}
+table{
+ 
+  border-collapse: separate; 
+
+  border-spacing: 450px 5px; 
+
+}
